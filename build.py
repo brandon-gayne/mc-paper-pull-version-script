@@ -18,3 +18,5 @@ string = "https://papermc.io/api/v2/projects/paper/versions/{version}/builds/{bu
     jar=jar
 )
 
+print(string)
+
