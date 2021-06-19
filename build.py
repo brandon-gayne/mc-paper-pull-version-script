@@ -1,4 +1,3 @@
-from bs4 import BeautifulSoup
 import requests
 
 build_req = requests.get("https://papermc.io/api/v2/projects/travertine/")
