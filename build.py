@@ -1,6 +1,6 @@
 import requests
 
-build_req = requests.get("https://papermc.io/api/v2/projects/travertine/")
+build_req = requests.get("https://papermc.io/api/v2/projects/paper")
 build = build_req.json()['version_groups'][-1]
 
 builds_req = requests.get("https://papermc.io/api/v2/projects/paper/version_group/{}/builds".format(build))
